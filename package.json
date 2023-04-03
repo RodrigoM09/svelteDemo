@@ -42,6 +42,8 @@
 	"type": "module",
 	"dependencies": {
 		"generator-svelte": "^2.2.10",
-		"svelte-preprocess": "^5.0.3"
+		"svelte-preprocess": "^5.0.3",
+		"@supabase/auth-helpers-sveltekit": "^0.9.0",
+		"@supabase/supabase-js": "^2.12.1"
 	}
 }
