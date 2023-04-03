@@ -1,17 +1,18 @@
-import { PageData } from '../.svelte-kit/types/src/routes/$types';
+import { SupabaseClient, Session } from '@supabase/supabase-js';
+import type { Writeable } from 'zod';
+
 // See https://kit.svelte.dev/docs/types#app
 // for information about these interfaces
 declare global {
 	namespace App {
 		// interface Error {}
 		interface Locals {
-			sb: TypedSupabaseClient;
-			session: SupabaseSession;
+			supabase: SupabaseClient;
+			getSession(): Promise<Session | null>;
 		}
 		interface PageData {
-			session: import('@supabase/supabase-js').Session | null;
+			session: Session | null;
 		}
-		// interface PageData {}
 		// interface Platform {}
 	}
 }

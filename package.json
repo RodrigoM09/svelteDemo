@@ -34,6 +34,7 @@
 		"rollup-plugin-svelte": "^7.1.4",
 		"svelte": "^3.58.0",
 		"svelte-check": "^3.1.4",
+		"svelte-types": "^0.0.7",
 		"tslib": "^2.5.0",
 		"typescript": "^5.0.3",
 		"vite": "^4.2.1",
@@ -43,7 +44,7 @@
 	"dependencies": {
 		"@supabase/auth-helpers-svelte": "^0.4.6",
 		"@supabase/supabase-js": "^2.12.1",
-		"generator-svelte": "^2.2.10",
+		"generator-svelte": "^1.6.3",
 		"next-auth": "^4.21.1",
 		"svelte-preprocess": "^5.0.3"
 	}
